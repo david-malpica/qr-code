@@ -22,12 +22,6 @@ a {
    color: hsl(216, 100%, 61%);
 }
 
-/* image {
-   display: block;
-   width: 100%;
-   height: auto;
-} */
-
 .container {
    display: flex;
    flex-direction: column;
@@ -62,7 +56,7 @@ a {
 
 .attribution {
    text-align: center;
-   align-items: flex-end;
+   justify-content: flex-end;
 }
 
 @media screen and (min-width: 375px) {
